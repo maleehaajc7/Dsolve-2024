@@ -7,8 +7,9 @@
 109/10.bin 
 
 # Team Member
+Maleeha
 https://github.com/Niya7225
-
+Niya
 https://github.com/maleehaajc7
 
 ## Idea
