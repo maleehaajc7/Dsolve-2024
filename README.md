@@ -4,15 +4,14 @@
 
 
 ## Team Name
-Name  
+109/10.bin
 
 # Team Member
-Member 1 Github Link
-
-MEmber 2 Github Link
+https://github.com/maleehaajc7
+https://github.com/Niya7225
 
 ## Idea
-Breif Idea in two three sentences 
+Student accommodation finder
 
 ## Features 
 1. 
