@@ -9,19 +9,44 @@
 <body>
   <header>
     <h1>Accommodation Finder</h1>
+    <nav>
+      <ul>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/register">Register</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
     <section id="search">
       <input type="text" id="searchInput" placeholder="Search...">
+      <select id="amenitiesFilter">
+        <option value="">Amenities</option>
+        <option value="Wi-Fi">Wi-Fi</option>
+        <option value="AC">AC</option>
+        <option value="Attached Bathroom">Attached Bathroom</option>
+      </select>
+      <select id="typeFilter">
+        <option value="">Type</option>
+        <option value="Hostel">Hostel</option>
+        <option value="PG">PG</option>
+      </select>
+      <select id="genderFilter">
+        <option value="">Gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+      <div>
+        <label for="messFilter">Mess:</label>
+        <input type="checkbox" id="messFilter" value="true">
+      </div>
       <button type="button" id="searchButton">Search</button>
     </section>
     <section id="results">
-      <!-- Accommodation listings will be displayed here -->
+      <div id="accommodationList"></div>
     </section>
+    <div class="image">
+        <img src="image.png" alt="room">
+    </div>
   </main>
-  <footer>
-    <p>&copy; 2024 Accommodation Finder</p>
-  </footer>
-  <script src="script.js"></script>
 </body>
 </html>
