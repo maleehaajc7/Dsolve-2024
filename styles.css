@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  #search {
+    margin-bottom: 1rem;
+  }
+  
+  #results {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .accommodation {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .accommodation h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .accommodation p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .accommodation .rent {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .accommodation .contact {
+    margin-top: 10px;
+  }
+  
+  .accommodation .contact a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .accommodation .contact a:hover {
+    text-decoration: underline;
+  }
+  
+  
